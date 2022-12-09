@@ -8,7 +8,7 @@ import { useSession } from '../../contexts/session';
 import * as S from './styles';
 
 const Layout = () => {
-  const { user, logout } = useSession();
+  const { user } = useSession();
 
   const navigate = useNavigate();
 
@@ -17,7 +17,7 @@ const Layout = () => {
   return (
     <S.Wrapper>
       <S.SideMenuExpandable expandable={expandable}>
-        <S.LogoWrapper onClick={() => navigate('/welcome')}>
+        <S.LogoWrapper onClick={() => navigate('/friends')}>
           <S.UserName>{user?.name}</S.UserName>
         </S.LogoWrapper>
 

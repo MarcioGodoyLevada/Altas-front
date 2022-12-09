@@ -23,7 +23,6 @@ type Token = {
 
 export type SessionContextType = {
   signin: (email: string, password: string) => Promise<void>;
-  logout: () => void;
   user?: User | null;
 };
 
@@ -67,19 +66,7 @@ export function SessionProvider({ children }: { children: ReactNode }) {
       getUser(data.token);
     });
 
-    navigate('/welcome');
-  }
-
-  function logout() {
-    localStorage.removeItem('token');
-    delete api.defaults.headers.common['Authorization'];
-
-    setUser(null);
-
-    setTimeout(() => {
-      navigate('/');
-      navigate(0);
-    }, 240);
+    navigate('/friends');
   }
 
   useLayoutEffect(() => {
@@ -112,7 +99,7 @@ export function SessionProvider({ children }: { children: ReactNode }) {
   }, [navigate]);
 
   return (
-    <SessionContext.Provider value={{ signin, logout, user }}>
+    <SessionContext.Provider value={{ signin, user }}>
       {children}
     </SessionContext.Provider>
   );

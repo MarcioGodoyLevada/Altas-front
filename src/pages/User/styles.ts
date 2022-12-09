@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const HeadingContainer = styled.div`
-  color: ${(props) => props.theme.colors.primary700};
+  color: ${props => props.theme.colors.primary700};
   margin-top: 3.6rem;
 `;
 
@@ -43,9 +43,6 @@ export const ErrorMessage = styled.div`
 
 export const ButtonContainer = styled.div`
   ${({ theme }) => css`
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
     margin: 0.4rem 0 -0.4rem -0.4rem;
     .button {
       width: 100%;
@@ -71,7 +68,7 @@ export const RecoverContainer = styled.div`
     font-size: ${theme.font.sizes.xsmall};
     font-weight: ${theme.font.normal};
     font-style: normal;
-    color: ${(props) => props.theme.colors.gray500};
+    color: ${props => props.theme.colors.gray500};
     margin-top: 0.8rem;
     display: flex;
     justify-content: right;
@@ -79,3 +76,5 @@ export const RecoverContainer = styled.div`
     gap: 0.4rem;
   `}
 `;
+
+
