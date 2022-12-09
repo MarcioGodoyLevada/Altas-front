@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Menu should render correctly 1`] = `
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  margin: 1.2rem;
+}
+
+.c4 {
+  height: 5rem;
+  padding: 2.8rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c4 p {
+  margin: 0 1.6rem 0;
+  color: #919191;
+  font-family: Lato,sans-serif;
+  font-size: 1.6rem;
+}
+
+.c4 div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c4:hover,
+.c4:focus {
+  background: #F4F4F4;
+  border-radius: 0.5rem;
+}
+
+.c4:hover p,
+.c4:focus p {
+  color: #2C2657;
+}
+
+.c5 {
+  color: #00ACE4;
+  width: 2.4rem;
+}
+
+.c6 {
+  border-top: 2px solid #F4F4F4;
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1.6rem 0 0;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #00ACE4;
+  width: 2.4rem;
+  margin-bottom: 2.8rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  margin-left: 22rem;
+}
+
+.c2:hover,
+.c2:focus {
+  background: #F4F4F4;
+  border-radius: 0.5rem;
+}
+
+<nav
+  class="c0"
+>
+  <svg
+    aria-hidden="true"
+    class="c1 c2"
+    fill="currentColor"
+    focusable="false"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g
+      data-name="Layer 2"
+    >
+      <g
+        data-name="menu-arrow"
+      >
+        <path
+          d="M20.05 11H5.91l1.3-1.29a1 1 0 0 0-1.42-1.42l-3 3a1 1 0 0 0 0 1.42l3 3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42L5.91 13h14.14a1 1 0 0 0 .95-.95V12a1 1 0 0 0-.95-1z"
+        />
+        <rect
+          height="2"
+          rx="0.95"
+          ry="0.95"
+          width="18"
+          x="3"
+          y="17"
+        />
+        <rect
+          height="2"
+          rx="0.95"
+          ry="0.95"
+          width="18"
+          x="3"
+          y="5"
+        />
+      </g>
+    </g>
+  </svg>
+  <ul>
+    <li
+      class="c3"
+    >
+      <div
+        class="c4"
+        data-testid="expandable-button"
+      >
+        <svg
+          class="c5"
+        />
+        <div>
+          <p>
+            Automação
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="c3"
+    >
+      <div
+        class="c4"
+        data-testid="expandable-button"
+      >
+        <svg
+          class="c5"
+        />
+        <div>
+          <p>
+            Gerenciamento
+          </p>
+        </div>
+      </div>
+    </li>
+    <div
+      class="c6"
+    >
+      <li
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="expandable-button"
+        >
+          <svg
+            class="c5"
+          />
+          <div>
+            <p>
+              Sair
+            </p>
+          </div>
+        </div>
+      </li>
+    </div>
+  </ul>
+</nav>
+`;

@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: MenuItem should render correctly active menu item 1`] = `
+.c3 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  margin: 1.2rem;
+}
+
+.c1 {
+  height: 5rem;
+  padding: 2.8rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  border-radius: 0.5rem;
+  background: #F4F4F4;
+}
+
+.c1 p {
+  margin: 0 1.6rem 0;
+  color: #919191;
+  font-family: Lato,sans-serif;
+  font-size: 1.6rem;
+}
+
+.c1 div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c1:hover,
+.c1:focus {
+  background: #F4F4F4;
+  border-radius: 0.5rem;
+}
+
+.c1:hover p,
+.c1:focus p {
+  color: #2C2657;
+}
+
+.c1 p {
+  color: #222F3E;
+}
+
+.c5 {
+  color: #2C2657;
+  font-family: Lato,sans-serif;
+  font-size: 1.6rem;
+}
+
+.c4 {
+  color: #222F3E;
+  width: 1.6rem;
+  height: 1.4rem;
+}
+
+.c2 {
+  color: #00ACE4;
+  width: 2.4rem;
+}
+
+<li
+  class="c0"
+>
+  <div
+    class="c1"
+    data-testid="expandable-button"
+  >
+    <svg
+      class="c2"
+    />
+    <div>
+      <p>
+        Click
+      </p>
+      <svg
+        aria-hidden="true"
+        class="c3 c4"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M21.886 5.536A1.002 1.002 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13a.998.998 0 0 0 1.644 0l9-13a.998.998 0 0 0 .064-1.033zM12 17.243 4.908 7h14.184L12 17.243z"
+        />
+      </svg>
+    </div>
+  </div>
+  <ul
+    class="c5"
+  >
+    <li>
+      ativo
+    </li>
+    ))
+  </ul>
+</li>
+`;
